@@ -19,7 +19,7 @@ const Projects = () => {
       _id: '1',
       title: 'SecureAuth Dashboard',
       description: 'A comprehensive cybersecurity dashboard for monitoring authentication attempts and security threats in real-time.',
-      techStack: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+      techStack: ['React', 'Node.js', 'MongoDB'],
       githubLink: 'https://github.com/diptikc69',
       liveDemo: '#'
     },
@@ -27,7 +27,7 @@ const Projects = () => {
       _id: '2',
       title: 'AI-Powered Design Tool',
       description: 'An intelligent design assistant that helps create UI/UX mockups using machine learning algorithms.',
-      techStack: ['Python', 'TensorFlow', 'React', 'FastAPI'],
+      techStack: ['Python', 'React', 'FastAPI'],
       githubLink: 'https://github.com/diptikc69',
       liveDemo: '#'
     },
@@ -35,7 +35,7 @@ const Projects = () => {
       _id: '3',
       title: 'Vulnerability Scanner',
       description: 'A web application security scanner that identifies common vulnerabilities and provides remediation suggestions.',
-      techStack: ['Python', 'Flask', 'SQLite', 'Bootstrap'],
+      techStack: ['Python', 'SQLite', 'Bootstrap'],
       githubLink: 'https://github.com/diptikc69',
       liveDemo: '#'
     }

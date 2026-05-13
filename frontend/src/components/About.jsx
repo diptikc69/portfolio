@@ -207,7 +207,7 @@ const About = () => {
               </motion.div>
 
               <h3 className="text-2xl font-bold mb-6 text-green-400 font-mono">
-                <span className="text-cyan-400">$</span> ./my_journey.sh
+                My Journey
                 <motion.span
                   animate={{ opacity: [1, 0, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
@@ -219,21 +219,21 @@ const About = () => {
 
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p className="border-l-4 border-cyan-500 pl-4 bg-gray-900/50 p-3 rounded-r-lg">
-                  <span className="text-cyan-400 font-mono text-sm">// Initialization</span><br />
+                  <span className="text-cyan-400 font-mono text-sm">Initialization</span><br />
                   I'm a passionate Full Stack Developer with expertise in building complete web applications
                   from frontend to backend. My journey combines cybersecurity knowledge, UI/UX design skills,
                   and artificial intelligence exploration to create secure, user-friendly, and intelligent solutions.
                 </p>
 
                 <p className="border-l-4 border-green-500 pl-4 bg-gray-900/50 p-3 rounded-r-lg">
-                  <span className="text-green-400 font-mono text-sm">// Technical Stack</span><br />
+                  <span className="text-green-400 font-mono text-sm">Technical Stack</span><br />
                   With experience in modern web technologies like React, Node.js, and MongoDB, I build
                   scalable applications. My 3 months of intensive cybersecurity and ethical hacking training
                   ensures I develop with security-first principles, protecting applications from vulnerabilities.
                 </p>
 
                 <p className="border-l-4 border-blue-500 pl-4 bg-gray-900/50 p-3 rounded-r-lg">
-                  <span className="text-blue-400 font-mono text-sm">// Current Focus</span><br />
+                  <span className="text-blue-400 font-mono text-sm">Current Focus</span><br />
                   Currently expanding my expertise in AI/ML with 100 hours of specialized training,
                   integrating intelligent features into full-stack applications. I'm passionate about
                   creating end-to-end solutions that solve real-world problems with cutting-edge technology.
@@ -244,7 +244,7 @@ const About = () => {
                 className="mt-8 flex flex-wrap gap-3"
                 variants={itemVariants}
               >
-                {['React', 'Node.js', 'MongoDB', 'Express.js', 'JavaScript', 'TypeScript', 'Python', 'Tailwind CSS', 'Figma', 'Git', 'Cybersecurity', 'AI/ML'].map((tech, index) => (
+                {['React', 'Node.js', 'MongoDB', 'Express.js', 'JavaScript', 'TypeScript', 'Python', 'Tailwind CSS', 'Figma', 'Git', 'Cybersecurity', 'AI/ML', 'Videography', 'Photography'].map((tech, index) => (
                   <motion.span
                     key={tech}
                     className="px-3 py-1 bg-gray-900 border border-green-500 text-green-400 rounded-full text-sm font-mono hover:bg-green-500/10 hover:shadow-lg hover:shadow-green-500/25 transition-all duration-300"
@@ -265,7 +265,7 @@ const About = () => {
             {/* Skills Section */}
             <motion.div variants={itemVariants} className="relative z-10">
               <h3 className="text-2xl font-bold mb-8 text-green-400 font-mono">
-                <span className="text-cyan-400">$</span> ./skills --list
+                Skills
                 <motion.span
                   animate={{ opacity: [1, 0, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
