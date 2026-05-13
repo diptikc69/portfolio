@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # portfolio
 Full-stack personal portfolio project featuring a responsive React + Tailwind frontend, Node.js/Express API with MongoDB persistence, project/contact management, and an admin dashboard UI. Includes theme switcher, modern UI animations, robust routes, and local-first development flow.
 =======
