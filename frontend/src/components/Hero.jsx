@@ -290,7 +290,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection('#projects')}
               >
-                <span className="font-mono">./view_projects.sh</span>
+                <span className="font-mono">Projects</span>
               </motion.button>
               <motion.button
                 className="bg-transparent border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 shadow-lg shadow-cyan-500/25"
@@ -298,7 +298,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection('#contact')}
               >
-                <span className="font-mono">./contact.exe</span>
+                <span className="font-mono">Contact</span>
               </motion.button>
             </motion.div>
 
