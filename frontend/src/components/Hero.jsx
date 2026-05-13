@@ -158,7 +158,7 @@ const Hero = () => {
             >
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-8 border-cyan-400 shadow-cyan-400/50 relative">
                 <img
-                  src="/images/dipti-profile.jpeg"
+                  src="/images/deepti-profile.png"
                   alt="Dipti K.C."
                   className="w-full h-full object-cover"
                   style={{
