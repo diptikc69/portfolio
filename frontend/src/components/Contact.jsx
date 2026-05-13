@@ -365,10 +365,10 @@ const Contact = () => {
                     type="submit"
                     disabled={isSubmitting}
                     className={`w-full py-3 px-6 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 ${isSubmitting
-                        ? 'bg-gray-600 cursor-not-allowed text-gray-400'
-                        : 'bg-cyan-500 hover:bg-cyan-400 text-black shadow-lg shadow-cyan-500/30 hover:shadow-cyan-400/50'
+                        ? 'bg-gray-800 border border-gray-600 cursor-not-allowed text-gray-500'
+                        : 'bg-transparent border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400/10 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-400/40'
                       } focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2`}
-                    whileHover={!isSubmitting ? { scale: 1.02, boxShadow: "0 0 25px rgba(34, 211, 238, 0.5)" } : {}}
+                    whileHover={!isSubmitting ? { scale: 1.02, boxShadow: "0 0 20px rgba(34, 211, 238, 0.3)" } : {}}
                     whileTap={!isSubmitting ? { scale: 0.98 } : {}}
                   >
                     {isSubmitting ? (
