@@ -166,7 +166,7 @@ const About = () => {
                 <div className="relative">
                   <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-xl border-4 border-cyan-400/50 shadow-cyan-400/30 relative">
                     <img
-                      src="/images/dipti.jpeg"
+                      src="/images/deepti.png"
                       alt="Dipti K.C. - Professional Photo"
                       className="w-full h-full object-cover"
                       style={{
