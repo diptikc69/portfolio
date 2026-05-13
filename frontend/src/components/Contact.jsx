@@ -195,7 +195,7 @@ const Contact = () => {
             <motion.div variants={itemVariants} className="space-y-8 relative z-10">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-green-400 font-mono">
-                  <span className="text-cyan-400">$</span> ./connect --init
+                  Let's Connect
                   <motion.span
                     animate={{ opacity: [1, 0, 1] }}
                     transition={{ duration: 1, repeat: Infinity }}
@@ -205,7 +205,6 @@ const Contact = () => {
                   </motion.span>
                 </h3>
                 <p className="text-gray-300 leading-relaxed mb-8 border-l-4 border-cyan-500 pl-4 bg-gray-900/50 p-3 rounded-r-lg">
-                  <span className="text-cyan-400 font-mono text-sm">// Connection established</span><br />
                   I'm always open to discussing new opportunities, interesting projects,
                   or just having a chat about technology, cybersecurity, design, or AI.
                   Feel free to reach out through any of the channels below.
@@ -283,13 +282,13 @@ const Contact = () => {
             <motion.div variants={itemVariants} className="relative z-10">
               <div className="bg-gray-900/50 border border-gray-700 rounded-lg p-6 backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-6 text-green-400 font-mono">
-                  <span className="text-cyan-400">$</span> ./send_message.sh
+                  Send a Message
                 </h3>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Name Field */}
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2 font-mono">
-                      <span className="text-cyan-400">//</span> Name *
+                      Name *
                     </label>
                     <div className="relative">
                       <FiUser className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
@@ -314,7 +313,7 @@ const Contact = () => {
                   {/* Email Field */}
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2 font-mono">
-                      <span className="text-cyan-400">//</span> Email *
+                      Email *
                     </label>
                     <div className="relative">
                       <FiMail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
@@ -339,7 +338,7 @@ const Contact = () => {
                   {/* Message Field */}
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2 font-mono">
-                      <span className="text-cyan-400">//</span> Message *
+                      Message *
                     </label>
                     <div className="relative">
                       <FiMessageSquare className="absolute left-3 top-3 text-gray-400" />
@@ -366,10 +365,10 @@ const Contact = () => {
                     type="submit"
                     disabled={isSubmitting}
                     className={`w-full py-3 px-6 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 ${isSubmitting
-                        ? 'bg-gray-400 cursor-not-allowed'
-                        : 'bg-primary-600 hover:bg-primary-700 transform hover:scale-105'
-                      } text-white focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2`}
-                    whileHover={!isSubmitting ? { scale: 1.02 } : {}}
+                        ? 'bg-gray-600 cursor-not-allowed text-gray-400'
+                        : 'bg-cyan-500 hover:bg-cyan-400 text-black shadow-lg shadow-cyan-500/30 hover:shadow-cyan-400/50'
+                      } focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2`}
+                    whileHover={!isSubmitting ? { scale: 1.02, boxShadow: "0 0 25px rgba(34, 211, 238, 0.5)" } : {}}
                     whileTap={!isSubmitting ? { scale: 0.98 } : {}}
                   >
                     {isSubmitting ? (
