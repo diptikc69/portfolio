@@ -233,7 +233,7 @@ const Hero = () => {
               className="mb-4"
             >
               <span className="text-lg text-amber-400 font-medium font-mono tracking-wider">
-                / Hello, I&apos;m
+                Hello, I&apos;m
               </span>
             </motion.div>
 
