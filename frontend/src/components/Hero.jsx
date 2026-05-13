@@ -69,7 +69,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden bg-gradient-hero">
+    <section id="home" className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden bg-gradient-hero w-full">
       {/* Premium mesh gradient background */}
       <div className="absolute inset-0 bg-gradient-mesh opacity-50 pointer-events-none"></div>
       
@@ -143,7 +143,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="container-custom">
+      <div className="container-custom w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Profile Image */}
           <motion.div
@@ -222,7 +222,7 @@ const Hero = () => {
 
           {/* Content */}
           <motion.div
-            className="order-1 lg:order-2 text-center lg:text-left"
+            className="order-1 lg:order-2 text-center lg:text-left min-w-0"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
