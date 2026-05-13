@@ -46,7 +46,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-br from-dark-900 via-dark-850 to-charcoal-900 border-t border-cyan-400/20">
-      <div className="container-custom">
+      <div className="container-custom px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-12">
           <div className="grid md:grid-cols-4 gap-8">
