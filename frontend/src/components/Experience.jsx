@@ -47,7 +47,7 @@ const Experience = () => {
       icon: FiCpu,
       color: 'from-amber-300 to-amber-400',
       description: 'Extensive study of artificial intelligence concepts, machine learning algorithms, and practical AI applications in various industries.',
-      skills: ['Machine Learning', 'Python', 'TensorFlow', 'Data Analysis', 'Neural Networks', 'AI Ethics'],
+      skills: ['Machine Learning', 'Python', 'Data Analysis', 'AI Ethics'],
       achievements: [
         'Implemented various ML algorithms from scratch',
         'Built AI-powered applications and models',
