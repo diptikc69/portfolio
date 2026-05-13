@@ -162,7 +162,7 @@ const Hero = () => {
                   alt="Dipti K.C."
                   className="w-full h-full object-cover"
                   style={{
-                    objectPosition: 'center 65%',
+                    objectPosition: 'center top',
                     minHeight: '100%',
                     minWidth: '100%',
                     filter: 'brightness(0.6) contrast(1.1) saturate(0.8)'
